@@ -1,0 +1,10 @@
+node_modules/
+
+uploads/
+
+# env
+.env
+.env.local
+
+# Reference folder
+_Reference/

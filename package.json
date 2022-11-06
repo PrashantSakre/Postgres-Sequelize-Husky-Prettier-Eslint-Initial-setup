@@ -1,0 +1,54 @@
+{
+  "name": "postgres-sequelize-husky-prettier-eslint-initial-setup",
+  "version": "1.0.0",
+  "description": "Initial Server setup with Postgres Database with Sequelize as ORM along with Prettier, Eslint and Husky.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^10.5.3",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrashantSakre/Postgres-Sequelize-Husky-Prettier-Eslint-Initial-setup.git"
+  },
+  "keywords": [
+    "Postgres",
+    "Sequelize",
+    "Husky",
+    "Prettier",
+    "Eslint",
+    "Initial",
+    "setup"
+  ],
+  "author": "Prashant Sakre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrashantSakre/Postgres-Sequelize-Husky-Prettier-Eslint-Initial-setup/issues"
+  },
+  "homepage": "https://github.com/PrashantSakre/Postgres-Sequelize-Husky-Prettier-Eslint-Initial-setup#readme",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.2"
+  }
+}
